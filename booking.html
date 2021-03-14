@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="CSS/booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/hover.css">
+</head>
+<body>  
+    
+    <div class="first">        
+        <div class="container">
+            <div class="nav">
+                <a class="home" href="home.html">Home</a>
+                <a href="booking.html">Booking</a>
+                <a href="contact.html">Contact</a>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search place.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>                   
+            </div>   
+        </div> 
+        <div style="margin-left: 30px;">
+            <h1 style="color: rgb(209, 200, 200);" >We provide service and <br> bring you everywhere</h1>
+            <p style="color: rgb(197, 190, 190);" >This is a complete online booking software that <br> automates your requesment, services and operations.
+
+            </p>
+            <button class="hvr-shutter-out-horizontal" >Learn more about this service </button>
+        </div>
+        <div class=" hvr-bob"><img src="images/date.gif" alt=""></div>
+    </div>
+    
+    <div class="supporting">
+        <button class="hvr-bounce-in">Book Now</button>
+        
+        <p>Find a department that will <br> bring you to travel.</p>
+        <div class="search-bar">
+            <form >
+                <div class="find-place">
+                    <label for="search" style="padding-left: 50px;">Find place :</label>
+                    <input id="search" type="text" placeholder="Search place.." name="search" style="padding: 12px;">
+                </div>
+                <br>
+                <div class="check-in">
+                    <label for="start" style="padding-left: 50px;">Check In : </label>
+                    <input type="date" id="start" name="trip-start"  min="2021-01-01" max="2023-12-31">
+                </div>
+                <br>
+                <div class="visitor">
+                    <label for="" style="padding-left: 50px;">Visitors : </label>
+                    <input list="browsers" name="browser">
+                </div>
+                <datalist id="browsers">
+                  <option value="Young">
+                  <option value="Adult">
+                  <option value="Old"> 
+                </datalist> <br>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            </form>  
+        </div>   
+        
+    </div>
+    <!-- <div class="cities">
+        <div class="phnompenh">
+            <img src="images/phnompenh.jpg" alt="">
+            <div class="bottom-left">Bottom Left</div>
+            <div class="top-left">Top Left</div>
+            <div class="top-right">Top Right</div>
+            <div class="bottom-right">Bottom Right</div>
+            <div class="centered">Centered</div>
+        </div>
+        <div>
+            <img src="images/hongkong.jpg" alt="">
+        </div>
+        <div class="birlin">
+            <img src="images/birlin.jpg" alt="">
+        </div>
+        <div class="">
+            <img src="" alt="">
+        </div>
+    </div> -->
+    <!-- departement -->
+    <hr>
+    <div class="department">
+        <div class="first-line">
+            <div class="travel-agency">
+                <img src="images/travel-agency.jpg" alt="" class="hvr-glow">
+                <h2 style="text-align: center;">Travel Agency</h2>
+                <p style="text-align: center;" class="hvr-shadow-radial"> This advanced online services that combines <br> with many things. We prepared for arrangements <br> to the visitors anytimes</p>
+            </div>
+            <div class="tour-guide">
+                <img src="images/tour-guide.png" alt="" class="hvr-glow">
+                <h2 style="text-align: center;">Tourist Guide</h2>
+                <p style="text-align: center;" class="hvr-shadow-radial" > Our mission is to guide tourist travelling <br> everywhere. 
+                We have many expert tour <br> guides with knowledge</p>
+            </div>
+            <div class="travel-service">
+                <img src="images/travel-service.png" alt="" class="hvr-glow" style="margin-bottom:28px;">
+                <h2 style="text-align: center;">Travel Service</h2>
+                <p style="text-align: center;" class="hvr-shadow-radial"> During travelling of our customer we serve <br> them carefully with
+                foot, health service, time with no any obstacle of the travelling.</p>
+            </div>
+        </div>
+        <div class="second-line">
+            <div class="Automate-Operation">
+                <img src="images/automate-operation.jpg" alt="" class="hvr-glow">
+                <h2 style="text-align: center; ">Automate-Operation</h2>
+                <p style="text-align: center;" class="hvr-shadow-radial"> Reduce costs with automatic supplier inquiry <br> & confirmation process. Handle 10x more <br> reservations with the same number of employees</p>
+            </div>
+            <div class="Business-Intelligence">
+                <img src="images/Business-Intelligence.png" alt="" class="hvr-glow">
+                <h2 style="text-align: center; ">Business-Intelligence</h2>
+                <p style="text-align: center;" class="hvr-shadow-radial"> Use exact numbers to improve productivity <br> and drive your company in right direction <br> with smarter planning and decisions.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="menu-footer" style="color: white;">
+            <h3 >Service</h3>
+            <p>Hotel</p>
+            <p>Food</p>
+            <p>Travel Places</p>
+        </div>
+
+        <div class="fmenu-footer" style="color: white;">
+            <h3 >About Us</h3>
+            <p>Company</p>
+            <p>Work History</p>
+            <p>Achievement</p>
+        </div>
+
+        <div class="smenu-footer" style="color: white;">
+            <h3 >Follow Us</h3>
+            <p>Twitter</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+        </div>
+        
+        <div class="tmenu-footer" style="color: white;">
+            <h3 >Company mission</h3>
+            <p>Provide customer with very good
+                service and experience. We've
+                acheived this for 20 years in working.
+                We bring you to all over the world.
+            </p>
+        </div>
+
+        
+    </footer>
+    <footer class="second-footer">
+        <div style="color: white; margin-left: 50px;">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <p style="color: wheat; text-align: center;">Company Name @ copyright 2021</p>
+            <!-- <a href="#" class="fa fa-youtube"></a> -->
+        </div>
+    </footer>
+</body>
+</html>

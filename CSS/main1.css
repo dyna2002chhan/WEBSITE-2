@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+  background-size: cover;
+}
+.first{
+  background-image: linear-gradient(rgba(29, 25, 25, 0.1),rgb(8, 0, 0)),url(../images/angkorwat.jpg);
+  padding-bottom: 200px;
+  background-size: cover;
+}
+.nav {
+  overflow: hidden;
+  background-color: rgb(5, 5, 5,0.7);
+  padding: 10px;
+}
+
+.container :hover{
+  background-color:rgb(5, 5, 5,0.5) ;
+}
+.nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+}
+.nav a:hover {
+  background-color: rgb(221, 221, 221,0.8);
+  color: black;
+  border-radius: 15px;
+}
+.nav .search-bar {
+  float: right;
+  margin-bottom: 6px;
+}
+.nav input[type=text] {
+  padding: 10px;
+  margin-top : 9px;
+  font-size: 17px;
+  border: none;
+}
+.nav .search-bar button {
+  float: right;
+  height: 5vh;
+  width: 35px;
+  margin-top: 13px;
+  margin-right: 14px;
+  margin-left: 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+} 
+
+.nav .search-bar button:hover {
+  background: #ccc;
+}
+.title{
+  text-align: center;
+  margin-top: 10%;
+  color: rgb(199, 195, 195);
+  padding: 20px;
+}
+.title h1{
+  font-size: 40px;
+}
+.title :hover{
+  transform: scale(1.1);
+}
+.title button i a{
+  text-decoration: none;
+  color: white;
+}
+footer{
+  background-color: black;padding: 2px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  font-size: 15px;
+}
+footer :hover{
+  color: rgb(155, 128, 78);
+}
+.second-footer{
+  display: flex;
+  justify-content: center;
+}
+.second-footer a{
+  margin-left: 15px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook, .fa-twitter, .fa-instagram{
+  background: black;
+  color: white;
+  border: solid 1px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .nav .search-bar {
+    float: none;
+  }
+  .nav a, 
+  .nav input[type=text], 
+  .nav 
+  .search-bar button {
+   
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .nav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  footer{
+    display: block;
+    text-align: center;
+  }
+}

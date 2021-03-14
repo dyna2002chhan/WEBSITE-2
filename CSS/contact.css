@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+}
+.first{
+  
+  background-image: linear-gradient(rgba(19, 18, 18, 0.1),rgb(8, 0, 0)),url(../images/aeroplane.jpg.crdownload);
+  padding-bottom: 200px;
+  background-size: cover;
+}
+.nav {
+  overflow: hidden;
+  background-color: rgb(5, 5, 5,0.7);
+  padding: 10px;
+}
+
+.container :hover{
+  background-color:rgb(5, 5, 5,0.5) ;
+}
+.nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+}
+.nav a:hover {
+  background-color: rgb(221, 221, 221,0.8);
+  color: black;
+  border-radius: 15px;
+}
+.nav .search-bar {
+  float: right;
+  margin-bottom: 6px;
+}
+.nav input[type=text] {
+  padding: 10px;
+  margin-top : 9px;
+  font-size: 17px;
+  border: none;
+}
+.nav .search-bar button {
+  float: right;
+  height: 5vh;
+  width: 35px;
+  margin-top: 13px;
+  margin-right: 14px;
+  margin-left: 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+} 
+
+.nav .search-bar button:hover {
+  background: #ccc;
+}
+
+.help-center{
+  text-align: center;
+}
+body {
+  background-color: #d1f3e7;
+}
+
+#title-Tag-Line {
+  font-size: 20px;
+}
+.supporting{
+  margin-left: 20px;
+}
+.supporting h1{
+  color: white;
+}
+.sub-supporting button a{
+  color: white;
+}
+.sub-supporting{
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.form-search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  width: 20%;
+  background: rgb(255, 250, 250,0.6);
+  
+}
+
+/* Style the submit button */
+form.form-search button {
+  height: 7.5vh;
+  background-color: blue;
+  border: none;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+.td input{
+  width: 20%;
+  height: 6vh;
+  border-radius: 5px;
+  border: none;
+  background: rgb(214, 232, 250);
+}
+.tb button{
+  width: 30px;
+  height: 5vh;
+  margin-top: 10px;
+}
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* form animation starts */
+.form {
+  background: rgb(73, 154, 247);
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 5px;
+  max-width: 480px;
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: -5px;
+  left: 0;
+  right: 0;
+  
+  border-top: 5px solid #0e3721;
+  animation: bounce 2.5s infinite;
+}
+
+.title{
+  /* display: block; */
+  font-family: sans-serif;
+  margin: auto;
+  margin-top: 5px;
+  width: 300px;
+}
+.termsConditions{
+  margin: 0 auto 5px 80px;
+}
+
+.signup{
+  font-size: 2em;
+  font-weight: bold;
+}
+.subtitle{
+  color: grey;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: #000;
+}
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.email:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 12em;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #0e3721;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 300px;
+  border-top: 5px solid #0e3750;
+  border-radius: 0%;
+}
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+} 
+  footer{
+    background-color: black;padding: 2px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 15px;
+  }
+  footer :hover{
+    color: rgb(155, 128, 78);
+  }
+  .second-footer{
+    display: flex;
+    justify-content: center;
+  }
+  .second-footer a{
+    margin-left: 10px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook, .fa-twitter, .fa-instagram{
+    background: black;
+    color: white;
+    border: solid 1px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .nav .search-bar {
+      float: none;
+    }
+    .nav a, 
+    .nav input[type=text], 
+    .nav 
+    .search-bar button {
+     
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .nav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+    footer{
+      display: block;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media screen and (max-width:300px){
+    .footer{
+      display: block;
+      text-align: center; 
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
